@@ -11,7 +11,7 @@ class Vehicle:
         self.brand = brand
         self.model = model
         self.year = year
-      def get_info(self)
+      def get_info(self):
         return F"Brand: {sef.brand}, model: {self.model}, year: {self.year}"
     
 class car(Vehicle):
